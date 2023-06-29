@@ -1,0 +1,116 @@
+
+.container {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.output {
+  display: flex;
+  margin-bottom:5px
+}
+
+.create_button {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px !important;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  /* border: none; */
+  transition: transform 0.1s ease-in;
+}
+
+.create_button:active {
+  transform: translateY(2px);
+}
+
+.generate_data {
+  height: 100%;
+  /* width: 95vw; */
+  width: 100%;
+  background-color: #bdebab;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  /* overflow: "hidden"; */
+  border: 1px solid;
+
+}
+
+.button_name {
+  font-size: 12px;
+}
+
+
+
+.switching {
+  margin-bottom: 10px;
+  padding: 2px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px !important;
+  width: 200px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  /* border: none; */
+  transition: transform 0.1s ease-in;
+}
+
+.switching:active {
+  transform: translateY(2px);
+}
+
+.read_data {
+  
+}
+
+.read_data_wrapper {
+  display: flex;
+}
+
+.left_content {
+  width: 20vw;
+  
+}
+
+.cluster {
+  height: 70vh;
+  padding: 10px;
+  background-color: #bdebab;
+  margin-right: 10px;
+  overflow-y: scroll;
+  border: 1px solid;
+
+
+}
+
+.right_content {
+  width: 75vw;
+  
+}
+
+.datas {
+  height: 70vh;
+  padding: 10px;
+  background-color: #bdebab;
+  overflow-y: scroll;
+  border: 1px solid;
+}
+
+.random {
+  width: 100%
+}

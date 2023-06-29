@@ -1,0 +1,25 @@
+//editでURLからidを取ってきたい
+const router = useRouter();
+  const text = "ok"
+  useEffect(() => {
+  if (router.isReady) {
+    const id = router.query.id
+    const data = getData(id);
+
+  }
+  }, [router])
+
+  async function getData(id) {
+
+    try {
+      console.log(`http://localhost:3060/api/text2img/${id}`)
+      const response = await axios.get(`http://localhost:3060/api/text2img/${id}`);
+      const data = response.data;
+      console.log(data);
+      return data
+
+    } catch (error) {
+      console.error(error);
+    }
+
+  }

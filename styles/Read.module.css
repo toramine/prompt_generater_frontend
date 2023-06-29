@@ -1,0 +1,57 @@
+
+.container {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search_data {
+  height: 15vh;
+  width: 95vw;
+  background-color: rgb(170, 207, 207);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+
+.create {
+  margin-bottom: 10px;
+}
+
+.read_data {
+}
+
+.read_data_wrapper {
+  display: flex;
+}
+
+.left_content {
+  width: 20vw;
+}
+
+.cluster {
+  height: 65vh;
+  padding: 10px;
+  background-color: rgb(170, 207, 207);
+  margin-right: 10px;
+  overflow-y: scroll;
+  border: 1px solid;
+}
+
+.right_content {
+  width: 75vw;
+}
+
+.datas {
+  height: 65vh;
+  padding: 10px;
+  background-color: rgb(170, 207, 207);
+  overflow-y: scroll;
+  border: 1px solid;
+}

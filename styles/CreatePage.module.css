@@ -1,0 +1,15 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.button {
+    margin-top: 50px;
+}
